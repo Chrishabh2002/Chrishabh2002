@@ -1,7 +1,5 @@
 # Welcome to My GitHub Profile! 🌟
 
-![Header](https://your-image-url.com/header.png)
-
 ## About Me
 Hello! I'm **Rishav Kumar**, a first-year computer science student at **Galgotias University** with a profound passion for **Artificial Intelligence** and **Machine Learning**.
 
