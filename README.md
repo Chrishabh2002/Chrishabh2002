@@ -88,41 +88,29 @@ class RishavKumar:
   <img src="https://img.shields.io/badge/Linear%20Algebra-2C5364?style=for-the-badge" />
 </p>
 
+<!-- live "typing" Qiskit code -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1200&color=00F5D4&center=true&vCenter=true&width=620&lines=qc+%3D+QuantumCircuit(2);qc.h(0)+++++++++++++%23+superposition;qc.cx(0%2C+1)+++++++++%23+entangle+the+qubits;qc.measure_all()++%23+collapse+%E2%86%92+00+or+11" alt="qiskit typing" />
+</p>
+
+A **Bell state** circuit — two qubits become entangled, so measuring one instantly tells you the other:
+
+```text
+        ┌───┐                   |Φ+⟩ = (|00⟩ + |11⟩) / √2
+  q0 ───┤ H ├──■──────  ▮         ────────────────────────────
+        └───┘  │                  Measure q0 = 0  →  q1 = 0
+  q1 ─────────┤X├──────  ▮         Measure q0 = 1  →  q1 = 1
+              └─┘                  (entangled — always correlated)
+```
+
 | 🔬 Concept | 💡 What I'm exploring |
 |---|---|
 | **Qubits & Gates** | Hadamard, Pauli-X/Y/Z, CNOT circuits in Qiskit |
-| **Superposition** | Running states in parallel for speed-ups |
-| **Entanglement** | Correlated qubits & Bell states |
+| **Superposition** | One qubit holding many states → massive parallelism |
+| **Entanglement** | Bell states & correlated qubits across distance |
+| **Bloch Sphere** | Visualizing a qubit's state as a point on a sphere |
 | **Quantum ML** | Variational circuits + hybrid quantum-classical models |
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5D4,50:00B4D8,100:0466C8&height=3&section=header" width="100%">
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                       FEATURED PROJECTS                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🚀 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/Chrishabh2002/HealthcareAnalyticsDashboard">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chrishabh2002&repo=HealthcareAnalyticsDashboard&theme=react&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00B4D8&text_color=c9d1d9" />
-  </a>
-</p>
-
-<p align="center">
-  <b>🏥 Healthcare Analytics Dashboard</b> — 50K-patient analytics + Random Forest disease prediction (Python · Streamlit · Plotly · scikit-learn)
-</p>
-
-<details>
-<summary><b>🔭 More projects coming soon...</b></summary>
-
-<br>
-
-- ⚛️ **Quantum ML Experiments** — variational circuits with Qiskit *(in progress)*
-- 🤖 **Deep Learning models** — CNN / NLP experiments *(in progress)*
-- 📊 **Data Science notebooks** — EDA, feature engineering & ML pipelines
-
-</details>
+| **Algorithms** | Grover's search & Deutsch-Jozsa intuition |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5D4,50:00B4D8,100:0466C8&height=3&section=header" width="100%">
 
@@ -170,6 +158,10 @@ class RishavKumar:
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Analytics
+
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chrishabh2002&theme=2077" />
+</p>
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chrishabh2002&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=00F5D4&icon_color=00B4D8&text_color=c9d1d9" />
